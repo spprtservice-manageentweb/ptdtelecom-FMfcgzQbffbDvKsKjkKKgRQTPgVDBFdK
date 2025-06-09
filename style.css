@@ -1,0 +1,106 @@
+body {
+  background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 40px 0;
+  display: flex;
+  justify-content: center;
+}
+.form input {
+ font-family: "Roboto", sans-serif;
+  outline: 10;
+  background:  #F7FAFF;
+  width: 90%;
+  border: 2;
+  margin: 10 10 10px;
+  padding: 7px;
+  box-sizing: border-box;
+  border: 2px groove solid;
+  border-radius: 6px;
+  font-size: 14px;
+}
+.login-page {
+  width: 300px;
+  padding: 2% 0 0;
+  margin: auto;
+}button {
+ background-color: #2097c4;
+  border: none;
+  color: white;
+  padding: 7px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 10px 10px;
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: 13px;
+}
+
+#content {
+  width: 450px;
+  background-color: #ffffff;
+  padding: 10px 30px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+#content h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#content img {
+  max-width: 190px;
+}
+
+fieldset {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 6px;
+}
+
+legend {
+  font-weight: bold;
+  padding: 0 8px;
+}
+
+.formrow {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.prompt {
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+
+.element input[type="text"],
+.element input[type="password"],
+.element select {
+  width: 100%;
+  padding: 8px 10px;
+  font-size: 14px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.element input[type="text"]:focus,
+.element input[type="password"]:focus,
+.element select:focus {
+  border-color: #da2508;
+  outline: none;
+}
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #;
+   color: white;
+   text-align: center;
+   font-size: 14px;
